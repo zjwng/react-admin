@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './login.less'
 import logo from '../../images/logo192.png'
-import LoginForm from './LoginForm/LoginForm'
+import WrappedNormalLoginForm from './LoginForm/LoginForm'
 
 export default class Login extends Component{
 
@@ -14,7 +14,9 @@ export default class Login extends Component{
                     <div className='pos-abs w-100 h-100  modal'></div>
                 </div>
                 <div className='login-content contentFlex'>
-                    <LoginForm />
+                    <div className='loginForm'>
+                        <WrappedNormalLoginForm />
+                   </div>
                 </div>
             </div>
            
