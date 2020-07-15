@@ -37,5 +37,9 @@ react-admin 修改5
 
 react-admin 修改6
 
+<<<<<<< HEAD
 react-admin 修改7
 
+=======
+react-branch 修改1
+>>>>>>> 2829d72c478f03801f600e8e1669f0d5af0ca4a2
